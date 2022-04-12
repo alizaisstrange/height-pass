@@ -9,20 +9,20 @@
     grid-template-areas: "text form";
     grid-template-columns: 1fr 1fr;
     margin-bottom: 68px;
-    color: $textColorSoft;
     padding-top: 30px;
     padding-bottom: 69px;
+    color: $textColorSoft;
     .info__left {
       max-width: 630px;
       grid-area: text;
       .info__left-title {
+        margin-bottom: 3px;
         font-family: "TT Firs Neue", sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 31px;
         color: $textColorLight;
-        margin-bottom: 3px;
       }
       .info__left-text {
         font-family: "Roboto", sans-serif;
@@ -38,13 +38,13 @@
       margin-top: 33px;
       grid-area: form;
       .info__right-text {
+        margin-top: 20px;
+        margin-bottom: 16px;
         font-family: "TT Firs Neue", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
         line-height: 22px;
-        margin-top: 20px;
-        margin-bottom: 16px;
         color: $textColorLight
       }
       .info__right-form {

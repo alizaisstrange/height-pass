@@ -16,10 +16,10 @@
     .header__navigate {
       width: 100%;
       .nav-list {
-        height: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 100%;
         .nav-link {
           color: $textColorLight;
           font-family: "TT Firs Neue", sans-serif;
@@ -46,10 +46,10 @@
     .header__social-link {
       display: flex;
       justify-content: space-between;
-      width: 130px;
       flex: 1 0 auto;
-      margin-left: 48px;
+      width: 130px;
       margin-top: 5px;
+      margin-left: 48px;
       .icon {
         fill: $textColorSoft;
         transition: .2s;

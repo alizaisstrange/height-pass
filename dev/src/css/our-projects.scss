@@ -5,12 +5,12 @@
   margin-bottom: 68px;
   .our-projects__title {
     grid-area: title;
+    margin-bottom: 12px;
     font-family: "TT Firs Neue", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
-    margin-bottom: 12px;
   }
   .our-projects__container {
     @include grid();
@@ -20,21 +20,21 @@
     grid-template-rows: 1fr 1fr;
     .our-projects__images img, picture {
       object-fit: cover;
-      left: 0;
-      top: 0;
       height: auto;
       width: 100%;
+      left: 0;
+      top: 0;
     }
     .our-projects__image-text {
+      display: -webkit-box;
       max-width: 342px;
+      margin-top: 12px;
+      margin-left: -1px;
       overflow: hidden;
       text-overflow: ellipsis;
-      display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       transition: .2s;
-      margin-top: 12px;
-      margin-left: -1px;
     }
     .our-projects__image-text:hover {
       color: $buttonColor;
@@ -50,13 +50,13 @@
     }
     .image-date {
       display: flex;
+      margin-top: 10px;
+      margin-left: 1px;
       font-family: "Roboto", sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
       line-height: 22px;
-      margin-top: 10px;
-      margin-left: 1px;
       .date-svg {
         align-self: center;
         margin-right: 5px;
@@ -112,21 +112,21 @@
       right: 0px;
     }
     .our-projects__left-image4 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      max-width: 630px;
+      min-height: 290px;
+      margin-bottom: 3px;
+      margin-top: 5px;
+      padding-left: 29px;
       grid-column: 1/4;
       grid-row: 2;
       order: 5;
-      position: relative;
       @include ourProjectsText();
       background-image: url("../img/oblivion.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 290px;
-      padding-left: 29px;
-      display: flex;
-      flex-direction: column;
-      max-width: 630px;
-      margin-bottom: 3px;
-      margin-top: 5px;
       .our-projects__left-date {
         display: flex;
         margin-top: 22px;
@@ -195,25 +195,25 @@
     }
     .our-projects__right-image1 {
       position: relative;
+      display: flex;
+      flex-direction: column;
       grid-column: 4/6;
       grid-row: 1/1;
       order: 4;
       margin-bottom: 7px;
+      padding-left: 29px;
       @include ourProjectsText();
       background-image: url("../img/semantic-analysis.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      padding-left: 29px;
-      display: flex;
-      flex-direction: column;
       .our-projects__right-date {
         display: flex;
+        margin-top: 23px;
         font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
         line-height: 22px;
-        margin-top: 23px;
         color: $textColorLight;
         .date-svg {
           align-self: center;
@@ -224,25 +224,25 @@
       }
       .our-projects__right-text {
         .right-text-title {
+          max-width: 293px;
           margin-top: 2px;
+          margin-left: -2px;
           color: $textColorLight;
           font-family: "TT Firs Neue", sans-serif;
           font-style: normal;
           font-weight: bold;
           font-size: 24px;
           line-height: 24px;
-          max-width: 293px;
-          margin-left: -2px;
         }
         .right-text {
+          max-width: 292px;
+          margin-top: 5px;
           color: $textColorLight;
           font-family: "Roboto", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 16px;
           line-height: 22px;
-          margin-top: 5px;
-          max-width: 292px;
         }
       }
       .our-projects__right-button {

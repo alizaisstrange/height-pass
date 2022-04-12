@@ -32,21 +32,21 @@
           height: 100%;
           left: 0;
           z-index: 100;
-          color: white;
           padding-left: 60px;
           padding-right: 50px;
+          color: white;
           .number-info {
             .date-svg {
               fill: $textColorSoft;
             }
             .contacts__info-text {
+              max-width: 300px;
+              margin-top: 2px;
               font-family: "TT Firs Neue", sans-serif;
               font-style: normal;
               line-height: 20,64px;
               font-size: 16px;
               font-weight: 400;
-              margin-top: 2px;
-              max-width: 300px;
             }
             .date-svg {
               position: relative;
@@ -62,23 +62,23 @@
             }
           }
           .contacts__info-title {
+            margin-top: 25px;
+            margin-left: 0px;
             font-family: "TT Firs Neue", sans-serif;
             font-style: normal;
             line-height: 22px;
             font-size: 24px;
             font-weight: 400;
-            margin-top: 25px;
-            margin-left: 0px;
           }
           .contacts__info-text {
+            max-width: 300px;
+            margin-top: 8px;
             font-family: "Roboto", sans-serif;
             font-style: normal;
             line-height: 28px;
             font-size: 16px;
             font-weight: 400;
             color: $textColorSoft;
-            max-width: 300px;
-            margin-top: 8px;
           }
         }
         .close-info {
@@ -97,31 +97,31 @@
         max-width: 415px;
         margin-left: 5px;
         .contacts__form-title {
+          margin-bottom: 5px;
+          margin-top: -6px;
+          margin-left: 5px;
           font-family: "TT Firs Neue", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 24px;
           line-height: 22px;
           color: $textColorDark;
-          margin-bottom: 5px;
-          margin-top: -6px;
-          margin-left: 5px;
         }
         .contacts__form-text {
+          margin-bottom: 14px;
+          margin-left: 4px;
           font-family: "Roboto", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 16px;
           line-height: 22px;
           color: $textColorSoft;
-          margin-bottom: 14px;
-          margin-left: 4px;
         }
         .contacts__form-input {
           width: 100%;
-          padding: 15px 23px;
           height: 50px;
           margin-bottom: 20px;
+          padding: 15px 23px;
           background-color: #E9E9E9;
           border: 0px;
           font-family: "Roboto", sans-serif;
@@ -141,12 +141,12 @@
           transition: .2s;
         }
         .contacts__form-textarea {
-          padding: 15px 23px;
           width: 100%;
           height: 150px;
+          margin-bottom: 20px;
+          padding: 15px 23px;
           background-color: #E9E9E9;
           border: 0px;
-          margin-bottom: 20px;
           font-family: "Roboto", sans-serif;
           font-style: normal;
           font-weight: normal;
